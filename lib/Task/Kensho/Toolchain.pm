@@ -4,8 +4,8 @@ package Task::Kensho::Toolchain;
 BEGIN {
   $Task::Kensho::Toolchain::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-45-g53d0c2b
-$Task::Kensho::Toolchain::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-19-g9de2d4a
+$Task::Kensho::Toolchain::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: Basic Toolchain
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Toolchain - Basic Toolchain
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 
