@@ -4,7 +4,7 @@ Task::Kensho::Toolchain - A Glimpse at an Enlightened Perl: Basic Toolchain
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 

@@ -4,8 +4,8 @@ package Task::Kensho::Toolchain;
 BEGIN {
   $Task::Kensho::Toolchain::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34002-TRIAL-24-g144b961
-$Task::Kensho::Toolchain::VERSION = '0.34003'; # TRIAL
+# git description: v0.34003-TRIAL-18-gac79267
+$Task::Kensho::Toolchain::VERSION = '0.34004'; # TRIAL
 # ABSTRACT: A Glimpse at an Enlightened Perl: Basic Toolchain
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Toolchain - A Glimpse at an Enlightened Perl: Basic Toolchain
 
 =head1 VERSION
 
-version 0.34003
+version 0.34004
 
 =head1 SYNOPSIS
 
