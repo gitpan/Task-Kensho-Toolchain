@@ -4,7 +4,7 @@ Task::Kensho::Toolchain - A Glimpse at an Enlightened Perl: Basic Toolchain
 
 # VERSION
 
-version 0.35
+version 0.36
 
 # SYNOPSIS
 
@@ -20,7 +20,7 @@ From [http://en.wikipedia.org/wiki/Kensho](http://en.wikipedia.org/wiki/Kensho):
 > self."\[2\] It generally "refers to the realization of nonduality of
 > subject and object."\[3\]
 
-[Task::Kensho](https://metacpan.org/pod/Task::Kensho) is a first cut at building a list of recommended modules
+[Task::Kensho](https://metacpan.org/pod/Task::Kensho) is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -53,6 +53,18 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 Get, unpack, build and install modules from CPAN
 
+### [App::perlbrew](https://metacpan.org/pod/App::perlbrew)
+
+Manage perl installations in your $HOME
+
+### [CPAN::Mini](https://metacpan.org/pod/CPAN::Mini)
+
+Create a minimal mirror of CPAN
+
+### [Carton](https://metacpan.org/pod/Carton)
+
+Perl module dependency manager (aka Bundler for Perl)
+
 ### [local::lib](https://metacpan.org/pod/local::lib)
 
 Create and use a local lib/ for perl modules with PERL5LIB
@@ -69,7 +81,7 @@ regarding which modules you wish to install.
 
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::Toolchain
 
 # BUGS AND LIMITATIONS
 

@@ -4,8 +4,8 @@ package Task::Kensho::Toolchain;
 BEGIN {
   $Task::Kensho::Toolchain::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34004-TRIAL-33-g12fcb94
-$Task::Kensho::Toolchain::VERSION = '0.35';
+# git description: v0.35-36-g00fab2d
+$Task::Kensho::Toolchain::VERSION = '0.36';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Basic Toolchain
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::Toolchain - A Glimpse at an Enlightened Perl: Basic Toolchain
 
 =head1 VERSION
 
-version 0.35
+version 0.36
 
 =head1 SYNOPSIS
 
@@ -42,7 +42,7 @@ subject and object."[3]
 
 =back
 
-L<Task::Kensho> is a first cut at building a list of recommended modules
+L<Task::Kensho> is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -71,9 +71,23 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head2 L<Task::Kensho::Toolchain>: Basic Toolchain
 
+=for stopwords Bundler
+
 =head3 L<App::cpanminus>
 
 Get, unpack, build and install modules from CPAN
+
+=head3 L<App::perlbrew>
+
+Manage perl installations in your $HOME
+
+=head3 L<CPAN::Mini>
+
+Create a minimal mirror of CPAN
+
+=head3 L<Carton>
+
+Perl module dependency manager (aka Bundler for Perl)
 
 =head3 L<local::lib>
 
@@ -91,7 +105,7 @@ regarding which modules you wish to install.
 
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::Toolchain
 
 =head1 BUGS AND LIMITATIONS
 
