@@ -1,11 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::Toolchain;
-BEGIN {
-  $Task::Kensho::Toolchain::AUTHORITY = 'cpan:PERIGRIN';
-}
-# git description: v0.35-36-g00fab2d
-$Task::Kensho::Toolchain::VERSION = '0.36';
+# git description: v0.36-33-g15ee48b
+$Task::Kensho::Toolchain::VERSION = '0.37';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Basic Toolchain
 
 __END__
@@ -20,7 +17,7 @@ Task::Kensho::Toolchain - A Glimpse at an Enlightened Perl: Basic Toolchain
 
 =head1 VERSION
 
-version 0.36
+version 0.37
 
 =head1 SYNOPSIS
 
@@ -69,9 +66,13 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 =head1 RECOMMENDED MODULES
 
+=for stopwords Bundler
+
 =head2 L<Task::Kensho::Toolchain>: Basic Toolchain
 
-=for stopwords Bundler
+=head3 L<App::FatPacker>
+
+Pack your dependencies onto your script file
 
 =head3 L<App::cpanminus>
 
@@ -88,6 +89,10 @@ Create a minimal mirror of CPAN
 =head3 L<Carton>
 
 Perl module dependency manager (aka Bundler for Perl)
+
+=head3 L<Pinto>
+
+Curate a repository of Perl modules
 
 =head3 L<local::lib>
 
@@ -133,5 +138,25 @@ This software is copyright (c) 2008 by Chris Prather.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 CONTRIBUTORS
+
+=for stopwords Karen Etheridge Leo Lapworth Chris Nehren
+
+=over 4
+
+=item *
+
+Karen Etheridge <ether@cpan.org>
+
+=item *
+
+Leo Lapworth <leo@cuckoo.org>
+
+=item *
+
+Chris Nehren <apeiron@cpan.org>
+
+=back
 
 =cut
