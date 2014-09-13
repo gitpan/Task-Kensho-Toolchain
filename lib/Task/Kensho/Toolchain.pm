@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::Toolchain;
-# git description: v0.36-33-g15ee48b
-$Task::Kensho::Toolchain::VERSION = '0.37';
+# git description: v0.37-35-g048468a
+$Task::Kensho::Toolchain::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Basic Toolchain
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::Toolchain - A Glimpse at an Enlightened Perl: Basic Toolchain
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
